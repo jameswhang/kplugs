@@ -11,6 +11,9 @@
 #include <linux/highmem.h>
 #include <linux/slab.h>
 
+/* Not entirely sure why this is not included but it results in build error" */ 
+#include <linux/vmalloc.h>
+
 MODULE_LICENSE("GPL");
 
 #include "env.h"
